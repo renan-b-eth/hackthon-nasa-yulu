@@ -1,12 +1,11 @@
-build-essential
-libopenblas-dev
-libfreetype6-dev
-libgfortran5
-pkg-config
-streamlit==1.35.0
-pandas==2.2.2
-numpy==1.26.4
-astroquery==0.4.7
-lightkurve==2.4.2
-matplotlib==3.8.4
-scipy==1.13.0
+# Versão minimalista para máxima compatibilidade no deploy
+streamlit
+pandas
+numpy
+# Listando explicitamente as dependências científicas chave
+astropy
+scipy
+matplotlib
+astroquery
+# Por fim, o lightkurve na sua forma mais simples
+lightkurve
