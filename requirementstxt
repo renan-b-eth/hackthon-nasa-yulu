@@ -4,3 +4,4 @@ pandas
 numpy
 astroquery
 lightkurve[all]
+matplotlib
