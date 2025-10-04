@@ -1,3 +1,8 @@
+build-essential
+libopenblas-dev
+libfreetype6-dev
+libgfortran5
+pkg-config
 streamlit==1.35.0
 pandas==2.2.2
 numpy==1.26.4

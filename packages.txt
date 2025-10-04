@@ -2,3 +2,4 @@ build-essential
 libopenblas-dev
 libfreetype6-dev
 libgfortran5
+pkg-config
