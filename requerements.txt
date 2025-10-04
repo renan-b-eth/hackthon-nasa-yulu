@@ -1,0 +1,6 @@
+# --- Core App & Interface ---
+streamlit
+pandas
+numpy
+astroquery
+lightkurve[all]
