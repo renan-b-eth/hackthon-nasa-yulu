@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+astroquery
+lightkurve[all]
+matplotlib
+Pillow
+astropy
