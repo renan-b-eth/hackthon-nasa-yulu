@@ -1,11 +1,20 @@
-# Versão minimalista para máxima compatibilidade no deploy
+# Ficheiro de dependências final para a G.O.L.D.I.L.O.C.K.S. Suite
+
+# Framework principal da aplicação
 streamlit
+
+# Bibliotecas de manipulação de dados
 pandas
 numpy
-# Listando explicitamente as dependências científicas chave
-astropy
-scipy
-matplotlib
+
+# Bibliotecas astronómicas
 astroquery
-# Por fim, o lightkurve na sua forma mais simples
-lightkurve
+# Usar [all] garante que as dependências de plotagem como o matplotlib são instaladas
+lightkurve[all]
+matplotlib
+
+# Biblioteca para a IA Multimodal da Google (Análise de Imagem)
+google-generativeai
+
+# Biblioteca para manipulação de imagens (necessária para a ferramenta de upload)
+Pillow

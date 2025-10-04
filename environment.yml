@@ -1,0 +1,20 @@
+# Ficheiro de ambiente para o Streamlit in Snowflake
+# Especifica as dependências Conda e Pip
+
+name: goldilocks_env
+channels:
+  - snowflake
+dependencies:
+  - python=3.10
+  # Biblioteca essencial para interagir com o Snowflake a partir do Python
+  - snowflake-snowpark-python
+  # Dependências científicas principais
+  - pandas
+  - numpy
+  - astropy
+  - scipy
+  - matplotlib
+  - pip:
+    # Dependências que podem ser instaladas via Pip se não estiverem no canal principal do Conda
+    - astroquery
+    - streamlit
