@@ -1,5 +1,3 @@
-# System packages required for the scientific Python stack
-# Version FINAL - a mais robusta
 build-essential
 libopenblas-dev
 libfreetype6-dev
